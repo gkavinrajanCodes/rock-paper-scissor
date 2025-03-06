@@ -1,0 +1,32 @@
+.note-tile {
+    background-color: #282c34;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .note-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .note-tile h3 {
+    color: #61dafb;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .note-tile p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+  }
